@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "data-science-package"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["Infosim Research <Research@infosim.net>"]
 readme = "README.md"
