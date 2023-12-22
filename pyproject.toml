@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "data-science-package"
+version = "0.1.2"
+description = ""
+authors = ["Infosim Research <Research@infosim.net>"]
+readme = "README.md"
+include = ["data_science_package/eventfiles/*"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.3"
+plotly = "^5.16.1"
+ipywidgets = "^8.1.0"
+matplotlib = "^3.7.2"
+adtk = "^0.6.2"
+ics = "^0.7.2"
+prophet = "^1.1.4"
+nbformat = "^5.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
